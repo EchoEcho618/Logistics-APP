@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hk.houqinafter.mapper.RepairMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hk.houqinafter.entity.Repair">
+        <id column="r_id" property="rId" />
+        <result column="u_id" property="uId" />
+        <result column="r_place" property="rPlace" />
+        <result column="r_content" property="rContent" />
+        <result column="start" property="start" />
+        <result column="s_id" property="sId" />
+        <result column="end" property="end" />
+        <result column="star" property="star" />
+        <result column="evaluation" property="evaluation" />
+    </resultMap>
+
+</mapper>
